@@ -1,5 +1,7 @@
 # Talent Vault
 
+Application is Live- http://52.91.54.255/
+
 **Talent Vault** is an AI-powered resume management platform designed to streamline the hiring process for HR teams and recruiters. It offers intelligent resume parsing, advanced search and filter capabilities, and smart role-matching insights to identify top candidates efficiently.
 
 ---
