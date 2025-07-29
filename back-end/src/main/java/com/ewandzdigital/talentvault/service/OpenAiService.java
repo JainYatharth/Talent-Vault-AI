@@ -55,7 +55,7 @@ public class OpenAiService {
 
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_JSON);
-        headers.setBearerAuth("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");
+        headers.setBearerAuth(apiKey);
 
         HttpEntity<Map<String, Object>> request = new HttpEntity<>(requestBody, headers);
         ResponseEntity<Map> response = restTemplate.postForEntity(OPENAI_URL, request, Map.class);
