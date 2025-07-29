@@ -1,0 +1,7 @@
+# Ignore application secrets
+application.properties
+
+# Ignore build files
+target/
+*.class
+*.jar
